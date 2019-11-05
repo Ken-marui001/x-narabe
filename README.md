@@ -8,23 +8,28 @@ X-Narabe is board-game imitate (gobang)[https://en.wikipedia.org/wiki/Gomoku]. Y
 2 players sets symbols alternately. if someone line up five same symbols on default rules, these one wins.
 
 ![](https://i.gyazo.com/e842da421d76dbaeb028e350b8e31f8c.gif)
+
+When I change rule.
+
+![](https://i.gyazo.com/8bfde6abe0bfd36f6c1b61ecd0918b4d.gif)
+
 # Features
 
 You can play "gobang". Then if you get bored it, you change rules. for exsmple, winning condition is that three same symbols line up.
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
+Node.js: over 4.0
+create-react-app
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
+ You have to install "node.js"(version over 4.0).
 
+Install "create-react-app" command and run this command.
 ```bash
-pip install huga_package
+npm install -g create-react-app
+create-react-app x-narabe
 ```
 
 # Usage
@@ -32,28 +37,21 @@ pip install huga_package
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/Ken-marui001/x-narabe.git
+cd x-narabe
+npm start
 ```
 
 # Note
 
-注意点などがあれば書く
+I don't test environments under Linux and Windows.
 
 # Author
 
-作成情報を列挙する
+* Ken-marui
 
-* 作成者
-* 所属
-* E-mail
 
 # License
 ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+"React" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
